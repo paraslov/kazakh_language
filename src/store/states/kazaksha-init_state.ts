@@ -1,0 +1,48 @@
+// kazaksha reducer init state
+export const initialState = {
+  data: {
+    translates: [
+      {kazakh: 'жүру', rus: 'ходить', example: 'Мен аулаДА жүрДІ+М', exampleTranslate: 'Я двор-В ход-ИЛ', rating: 1},
+      {kazakh: 'аула', rus: 'двор', example: 'Мен аулаДА жүрДІ+М', exampleTranslate: 'Я двор-В ход-ИЛ', rating: 1},
+      {kazakh: 'жату', rus: 'лежать', example: 'Мен төсекТЕ жатТЫ+М', exampleTranslate: 'Я кровать-НА лежа-Л', rating: 1},
+      {kazakh: 'төсек', rus: 'кровать', example: 'Мен төсекТЕ жатТЫ+М', exampleTranslate: 'Я кровать-НА лежа-Л', rating: 1},
+      {kazakh: 'отыру', rus: 'сидеть', example: 'Мен креслоДА отырДЫ+М', exampleTranslate: 'Я кресло-В сиде-Л', rating: 1},
+      {kazakh: 'кездесу', rus: 'встречаться\\ встретиться\\ встреча', example: 'Мен далаДА кездес+ТІ+М', exampleTranslate: 'Я улица-НА встреча-ЛСЯ', rating: 1},
+      {kazakh: 'дала', rus: 'улица', example: 'Мен далаДА кездес+ТІ+М', exampleTranslate: 'Я улица-НА встреча-ЛСЯ', rating: 1},
+      {kazakh: 'Жас', rus: 'возраст', example: 'Сенің ЖАС+ЫҢ қаншаДА\\нешеДЕ?', exampleTranslate: 'Тебе сколько лет? Твой возраст восколько?', rating: 1},
+      {kazakh: 'сабақ', rus: 'урок', example: 'Мен сабақ+та сөйле+ді+м', exampleTranslate: 'Я на уроке говорил\\выступал\\отвечал', rating: 1},
+      {kazakh: 'Басталу', rus: 'начинаться', example: 'Фильм сағат онДА бастал + ДЫ', exampleTranslate: 'Фильм часов десять-В начинал-СЯ', rating: 1},
+      {kazakh: 'Аяқталу', rus: 'заканчиваться', example: 'Фильм сағат он екіДЕ аяқтал+ДЫ', exampleTranslate: 'Фильм часов двенадцать-В заканчивал-СЯ', rating: 1},
+      {kazakh: 'Болу', rus: 'быть', example: 'Фильм  БІР САҒАТ бол+ДЫ', exampleTranslate: 'Фильм шел\\продолжался\\длился\\был один час', rating: 1},
+      {kazakh: 'БҮГІН', rus: 'сегодня', example: 'БҮГІН САБАҚ  сағат тоғызДА', exampleTranslate: 'Сегодня урок в девять часов', rating: 1},
+      {kazakh: 'Ес+ің+де', rus: 'ты помнишь', example: 'ес – память, ес+ің – твоя память; ес+ің+де –в твоей памяти', exampleTranslate: 'Ес+іңіз+де бар ма? – Вы помните; Ес+іңіз+де жоқ па? – Вы не помните', rating: 1},
+      {kazakh: 'саябақ', rus: 'парк', example: 'Мен саябақТА серуенде+ДІ+М', exampleTranslate: 'Я парке-В гуля-Л', rating: 1},
+      {kazakh: 'туу, дүниеге келу', rus: 'родиться', example: 'Мен Алматы+да ту+ды+м.', exampleTranslate: 'Я Алматы-В роди-лся', rating: 1},
+      {kazakh: 'өсу', rus: 'расти', example: 'Мен Алматы+да ӨС+ТІ+М.', exampleTranslate: 'Я Алматы-В вы-рос', rating: 1},
+      {kazakh: 'демалу', rus: 'отдыхать', example: 'ИспанияДА демалДЫ+М', exampleTranslate: 'Я Испания-В отдыха-Л', rating: 1},
+      {kazakh: 'оқу (ОҚ  + Ы + ДЫ+М)', rus: 'учиться', example: 'Мен мектеп+те оқы+ды+м', exampleTranslate: 'Я школе-В учил-ся', rating: 1},
+      {kazakh: 'мектеп', rus: 'школа', example: 'Мен мектеп+те оқы+ды+м', exampleTranslate: 'Я школе-В учил-ся', rating: 1},
+      {kazakh: 'сөйлеу', rus: 'выступать, говорить', example: 'Мен сабақ+ТА сөйле+ДІ+М', exampleTranslate: 'Я урок-НА выступа-Л', rating: 1},
+      {kazakh: 'серуендеу', rus: 'гулять', example: 'Мен саябақТА серуенде+ДІ+М', exampleTranslate: 'Я парк-В гуля-Л', rating: 1},
+      {kazakh: 'тұру', rus: 'жить по адресу, вставать, стоять', example: 'Мен бұрын МәскеуДЕ тұрДЫ+М', exampleTranslate: 'Я раньше Москве-В жи-Л', rating: 1},
+      {kazakh: 'бұрын', rus: 'раньше', example: 'Мен бұрын МәскеуДЕ тұрДЫ+М', exampleTranslate: 'Я раньше Москве-В жи-Л', rating: 1},
+      {kazakh: 'Ерте', rus: 'рано', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'кеш', rus: 'поздно', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Бүгін', rus: 'сегодня', example: 'Мен бүгін жетіДЕ (қаншаДА\\нешеДЕ?) тұрДЫ+М', exampleTranslate: 'Я сегодня семь-В (сколько-В) вста-Л', rating: 1},
+      {kazakh: 'Аялдама', rus: 'остановка', example: 'Мен аялдамаДА ұзақ тұрДЫ+М', exampleTranslate: 'Я остановка-На долго стоя-Л', rating: 1},
+      {kazakh: 'Ұзақ', rus: 'долго\\долгий', example: 'Мен аялдамаДА ұзақ тұрДЫ+М', exampleTranslate: 'Я остановка-На долго стоя-Л', rating: 1},
+      {kazakh: 'ояну', rus: 'просыпаться', example: 'Мен ерте оянДЫ+М (Мен жақсы көңіл – күйДЕ оян+ДЫ+М)', exampleTranslate: 'Я рано проснул-СЯ (Я хорошем настроении-В проснул-СЯ', rating: 1},
+      {kazakh: 'өс-у / өс+ті+ң', rus: 'рости / ты вырос', example: 'Мен қала+да өс+ті+м', exampleTranslate: 'Я городе-В выро-С', rating: 1},
+      {kazakh: 'ауыл', rus: 'село\\деревня', example: 'Мен бұрын ауылда тұр+ды+м', exampleTranslate: 'Я раньше деревне-В жи-Л', rating: 1},
+      {kazakh: 'ДҰРЫС', rus: 'правильно\\верно', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Солай', rus: 'так', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Шын / Рас', rus: 'правда', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Жалған / Өтірік', rus: 'ложь', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Көп', rus: 'много', example: '---', exampleTranslate: '---', rating: 1},
+      {kazakh: 'Жоқ', rus: 'нет / не', example: '---', exampleTranslate: '---', rating: 1},
+    ],
+    config: {},
+  }
+}
+
+export type TKazakshaState = typeof initialState;
