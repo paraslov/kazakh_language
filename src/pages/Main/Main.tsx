@@ -1,4 +1,4 @@
-import shemira from '../../assets/images/shemira.jpg'
+import kazakh from '../../assets/images/kazakh.jpg'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {ROUTES} from '../../Router/Router'
@@ -8,24 +8,29 @@ export const Main = () => {
   return (
     <div>
       <header className="App-header">
-        <Tilt>
-          <img src={shemira} alt="logo" className='App-logo' />
+        <div className="App-header__main">
+          <Tilt>
+          <img src={kazakh} alt="logo" className='App-logo'/>
         </Tilt>
-        <p>
-          Ultimate experience management
-        </p>
-        <Link
-          className="App-link"
-          to={ROUTES.PROFILE}
-        >
-          Enter the profile
-        </Link>
-        <Link
-          className="App-link"
-          to={ROUTES.KAZAKSHA}
-        >
-          Learn Kazaksha
-        </Link>
+          <p>
+            Improve your Kazakh language skills
+          </p>
+          <Link
+            className="App-link"
+            to={ROUTES.KAZAKSHA + '/?category=main'}
+          >
+            Learn Kazaksha
+          </Link>
+          <Link
+            className="App-link"
+            to={ROUTES.CATEGORIES}
+          >
+            Learn by Categories
+          </Link>
+        </div>
+        <footer className='App-footer'>
+          2022 {'\u00A9'} information here
+        </footer>
       </header>
     </div>
   )

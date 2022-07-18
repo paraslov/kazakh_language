@@ -1,17 +1,15 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { RootState } from '../store'
-import { mainTranslates } from '../data/kazaksha-main-data'
 
-export const initialState = {
+// Define the initial state using that type
+const initialState = {
   data: {
-    translates: mainTranslates,
-    config: {},
   }
 }
 
-export type TKazakshaState = typeof initialState;
+export type TProfileState = typeof initialState;
 
-export const kazakshaSlice = createSlice({
+export const profileSlice = createSlice({
   name: 'profile',
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
@@ -27,18 +25,16 @@ export const kazakshaSlice = createSlice({
   }
 })
 
-export const {  } = kazakshaSlice.actions
+export const {  } = profileSlice.actions
 
 // Other code such as selectors can use the imported `RootState` type
-export const selectTranslates = (state: RootState) => state.kazaksha.data.translates.map((t, i) => ({...t, id: i}))
+// export const selectStats = (state: RootState) => state.profile.data.stats
+// export const selectLvl = (state: RootState) => state.profile.data.heroLvl
 
-export default kazakshaSlice.reducer
+export default profileSlice.reducer
 
-export type TCardType = {
-  kazakh: string,
-  rus: string,
-  example: string,
-  exampleTranslate: string,
-  rating: number,
-  id: number,
+export type TStat = {
+  statValue: number
+  id: number
+  name: string
 }

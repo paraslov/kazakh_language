@@ -1,10 +1,13 @@
 import s from './Kazaksha.module.scss'
+
 import {useAppSelector} from '../../store/appHooks'
 import {selectTranslates, TCardType} from '../../store/reducers/kazaksha-reducer'
 import {useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export const Kazaksha = () => {
   const translates = useAppSelector(selectTranslates)
+  const navigate = useNavigate()
 
   const getRandomCards = (cards: TCardType[]) => {
     const randomCardsArr: TCardType[] = []
@@ -48,6 +51,11 @@ export const Kazaksha = () => {
       <div>
         <button className={`${s.button} ${showTranslates ? s.next : ''}`} onClick={onControlBtnClick}>
           {showTranslates ? 'Следущие' : 'Показать перевод'}
+        </button>
+      </div>
+      <div>
+        <button className={`${s.button} ${s.back}`} onClick={() => navigate(-1)}>
+          Назад
         </button>
       </div>
     </div>

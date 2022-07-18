@@ -1,13 +1,17 @@
 import {Navigate, Route, Routes} from 'react-router-dom'
 import {Main} from '../pages/Main/Main'
-import {Profile} from '../pages/Profile/Profile'
 import {Kazaksha} from '../pages/Kazaksha/Kazaksha'
+import {Categories} from '../pages/Categories/Categories'
 
 export const ROUTES = {
   ROOT: '/',
   MAIN: '/main',
-  PROFILE: '/profile',
-  KAZAKSHA: '/kazaksha'
+  CATEGORIES: '/categories',
+  KAZAKSHA: '/kazaksha',
+}
+
+export const PARAMS = {
+  CATEGORY: ':category',
 }
 
 export const Router = () => {
@@ -16,8 +20,10 @@ export const Router = () => {
       <Routes>
         <Route path={ROUTES.ROOT} element={<Navigate replace to={ROUTES.MAIN} />}/>
         <Route path={ROUTES.MAIN} element={<Main />} />
-        <Route path={ROUTES.PROFILE} element={<Profile />}/>
-        <Route path={ROUTES.KAZAKSHA} element={<Kazaksha />}/>
+        <Route path={ROUTES.CATEGORIES} element={<Categories />}/>
+        <Route path={ROUTES.KAZAKSHA} element={<Kazaksha />} >
+          <Route path={PARAMS.CATEGORY}/>
+        </Route>
       </Routes>
     </div>
   )

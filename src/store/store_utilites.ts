@@ -12,7 +12,7 @@ import {RootState} from './store'
 
 export const saveData = (state: RootState) => {
   localStorage.setItem('savedJoyMeProgress', JSON.stringify({
-    'profile': state.profile,
+    'profile': state.categories,
   }))
 }
 
