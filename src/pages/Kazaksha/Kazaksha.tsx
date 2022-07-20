@@ -3,11 +3,13 @@ import s from './Kazaksha.module.scss'
 import {useAppSelector} from '../../store/appHooks'
 import {selectTranslates, TCardType} from '../../store/reducers/kazaksha-reducer'
 import {useState} from 'react'
-import { useNavigate } from 'react-router-dom'
+import {useNavigate, useParams} from 'react-router-dom'
 
 export const Kazaksha = () => {
   const translates = useAppSelector(selectTranslates)
   const navigate = useNavigate()
+  const { category } = useParams();
+  console.log('@> category: ', category)
 
   const getRandomCards = (cards: TCardType[]) => {
     const randomCardsArr: TCardType[] = []

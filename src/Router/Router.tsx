@@ -21,8 +21,8 @@ export const Router = () => {
         <Route path={ROUTES.ROOT} element={<Navigate replace to={ROUTES.MAIN} />}/>
         <Route path={ROUTES.MAIN} element={<Main />} />
         <Route path={ROUTES.CATEGORIES} element={<Categories />}/>
-        <Route path={ROUTES.KAZAKSHA} element={<Kazaksha />} >
-          <Route path={PARAMS.CATEGORY}/>
+        <Route path={ROUTES.KAZAKSHA} >
+          <Route path={PARAMS.CATEGORY} element={<Kazaksha />} />
         </Route>
       </Routes>
     </div>

@@ -19,16 +19,16 @@ export const Categories = () => {
           </header>
           <div className={s.heroStats}>
             <h3>Pick category you want to improve:</h3>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/?category=main'} >
+            <Link className={s.link} to={ROUTES.KAZAKSHA + '/main'} >
               Learn all
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/?category=relatives'} >
+            <Link className={s.link} to={ROUTES.KAZAKSHA + '/relatives'} >
               Learn relatives
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/?category=count'} >
+            <Link className={s.link} to={ROUTES.KAZAKSHA + '/count'} >
               Learn count
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/?category=verbs'} >
+            <Link className={s.link} to={ROUTES.KAZAKSHA + '/verbs'} >
               Learn verbs
             </Link>
           </div>

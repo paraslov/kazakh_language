@@ -2,7 +2,7 @@ import kazakh from '../../assets/images/kazakh.jpg'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {ROUTES} from '../../Router/Router'
-import Tilt from 'react-parallax-tilt';
+import Tilt from 'react-parallax-tilt'
 
 export const Main = () => {
   return (
@@ -17,7 +17,7 @@ export const Main = () => {
           </p>
           <Link
             className="App-link"
-            to={ROUTES.KAZAKSHA + '/?category=main'}
+            to={ROUTES.KAZAKSHA + '/main'}
           >
             Learn Kazaksha
           </Link>
