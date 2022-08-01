@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kazakh-language/static/css/main.7963c66b.css",
+    "main.js": "/kazakh-language/static/js/main.67d06046.js",
+    "static/js/787.90e3640a.chunk.js": "/kazakh-language/static/js/787.90e3640a.chunk.js",
+    "static/media/kazakh.jpg": "/kazakh-language/static/media/kazakh.c9c294dc533d8e00a50b.jpg",
+    "index.html": "/kazakh-language/index.html",
+    "main.7963c66b.css.map": "/kazakh-language/static/css/main.7963c66b.css.map",
+    "main.67d06046.js.map": "/kazakh-language/static/js/main.67d06046.js.map",
+    "787.90e3640a.chunk.js.map": "/kazakh-language/static/js/787.90e3640a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7963c66b.css",
+    "static/js/main.67d06046.js"
+  ]
+}
