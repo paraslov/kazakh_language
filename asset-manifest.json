@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kazakh-language/static/css/main.df5ec875.css",
-    "main.js": "/kazakh-language/static/js/main.f180aba7.js",
-    "static/js/787.90e3640a.chunk.js": "/kazakh-language/static/js/787.90e3640a.chunk.js",
-    "static/media/kazakh.jpg": "/kazakh-language/static/media/kazakh.c9c294dc533d8e00a50b.jpg",
-    "index.html": "/kazakh-language/index.html",
-    "main.df5ec875.css.map": "/kazakh-language/static/css/main.df5ec875.css.map",
-    "main.f180aba7.js.map": "/kazakh-language/static/js/main.f180aba7.js.map",
-    "787.90e3640a.chunk.js.map": "/kazakh-language/static/js/787.90e3640a.chunk.js.map"
+    "main.css": "/kazakh_language/static/css/main.df5ec875.css",
+    "main.js": "/kazakh_language/static/js/main.e6ed2e43.js",
+    "static/js/787.90e3640a.chunk.js": "/kazakh_language/static/js/787.90e3640a.chunk.js",
+    "static/media/kazakh.jpg": "/kazakh_language/static/media/kazakh.c9c294dc533d8e00a50b.jpg",
+    "index.html": "/kazakh_language/index.html",
+    "main.df5ec875.css.map": "/kazakh_language/static/css/main.df5ec875.css.map",
+    "main.e6ed2e43.js.map": "/kazakh_language/static/js/main.e6ed2e43.js.map",
+    "787.90e3640a.chunk.js.map": "/kazakh_language/static/js/787.90e3640a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df5ec875.css",
-    "static/js/main.f180aba7.js"
+    "static/js/main.e6ed2e43.js"
   ]
 }
