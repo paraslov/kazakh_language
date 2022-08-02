@@ -45,8 +45,8 @@ export const Kazaksha = () => {
             <div className={s.translateHeader}>{t.kazakh}</div>
             <div className={s.translateItems}>
               <div className={s.translateItem}>{showTranslates ? t.rus : '...'}</div>
-              <div className={s.translateItem}>Пример: {t.example}</div>
-              <div className={s.translateItem}>Перевод: {showTranslates ? t.exampleTranslate : '...'}</div>
+              <div className={s.translateItem}><b>Пример</b>: {t.example}</div>
+              <div className={s.translateItem}><b>Перевод</b>: {showTranslates ? t.exampleTranslate : '...'}</div>
             </div>
           </div>)}
       </div>
