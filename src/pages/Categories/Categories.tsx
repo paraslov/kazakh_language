@@ -1,9 +1,10 @@
-import {Link} from 'react-router-dom'
-import {ROUTES} from '../../Router/Router'
-import Tilt from 'react-parallax-tilt';
+import { Link } from 'react-router-dom'
+import { ROUTES } from '../../Router/Router'
+import Tilt from 'react-parallax-tilt'
 import kazakh from '../../assets/images/kazakh.jpg'
 import s from './Categories.module.scss'
 import React from 'react'
+import { CategoriesTypes } from '../../store/reducers/kazaksha-reducer'
 
 
 export const Categories = () => {
@@ -19,16 +20,16 @@ export const Categories = () => {
           </header>
           <div className={s.heroStats}>
             <h3>Pick category you want to improve:</h3>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/main'} >
+            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.MAIN}`}>
               Learn all
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/relatives'} >
+            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.RELATIVES}`}>
               Learn relatives
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/count'} >
+            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.COUNT}`}>
               Learn count
             </Link>
-            <Link className={s.link} to={ROUTES.KAZAKSHA + '/verbs'} >
+            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.VERBS}`}>
               Learn verbs
             </Link>
           </div>

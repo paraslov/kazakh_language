@@ -1,10 +1,18 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 import { RootState } from '../store'
 import { mainTranslates } from '../data/kazaksha-main-data'
+import { relativesTranslates } from '../data/kazakhsha-relatives-data'
+import { countTranslates } from '../data/kazakhsha-count-data'
+import { verbsTranslates } from '../data/kazakhsha-verbs-data'
 
 export const initialState = {
   data: {
-    translates: mainTranslates,
+    translates: {
+      main: mainTranslates,
+      relatives: relativesTranslates,
+      count: countTranslates,
+      verbs: verbsTranslates,
+    },
     config: {},
   }
 }
@@ -30,7 +38,7 @@ export const kazakshaSlice = createSlice({
 export const {  } = kazakshaSlice.actions
 
 // Other code such as selectors can use the imported `RootState` type
-export const selectTranslates = (state: RootState) => state.kazaksha.data.translates.map((t, i) => ({...t, id: i}))
+export const selectTranslates = (category: CategoriesTypes) => (state: RootState) => state.kazaksha.data.translates[category].map((t, i) => ({...t, id: i}))
 
 export default kazakshaSlice.reducer
 
@@ -41,4 +49,11 @@ export type TCardType = {
   exampleTranslate: string,
   rating: number,
   id: number,
+}
+
+export enum CategoriesTypes {
+  MAIN = 'main',
+  RELATIVES = 'relatives',
+  COUNT = 'count',
+  VERBS = 'verbs',
 }

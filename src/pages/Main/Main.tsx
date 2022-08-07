@@ -13,7 +13,7 @@ export const Main = () => {
           <img src={kazakh} alt="logo" className='App-logo'/>
         </Tilt>
           <p>
-            Improve your Kazakh language skills
+            Improve your Kazakh language skills (v .008)
           </p>
           <Link
             className="App-link"
@@ -29,7 +29,9 @@ export const Main = () => {
           </Link>
         </div>
         <footer className='App-footer'>
-          2022 {'\u00A9'} information here
+          2022 {'\u00A9'} inspired by Gulmira Amandykova.
+          <br/>
+          If you have a suggestions or found an error you can send me an email: <b>tsfoe@mail.ru</b>
         </footer>
       </header>
     </div>
