@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 import { RootState } from '../store'
-import { mainTranslates } from '../data/kazaksha-main-data'
-import { relativesTranslates } from '../data/kazakhsha-relatives-data'
-import { countTranslates } from '../data/kazakhsha-count-data'
-import { verbsTranslates } from '../data/kazakhsha-verbs-data'
+import { mainTranslates } from '../data/main-data'
+import { relativesTranslates } from '../data/relatives-data'
+import { countTranslates } from '../data/count-data'
+import { verbsTranslates } from '../data/verbs-data'
 
 export const initialState = {
   data: {
