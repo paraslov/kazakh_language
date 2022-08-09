@@ -8,36 +8,30 @@ import { CategoriesTypes } from '../../store/reducers/kazaksha-reducer'
 
 
 export const Categories = () => {
-  return (
-    <div className={s.wrapper}>
-      <div className={s.profile}>
-        <div className={s.infoSection}>
-          <header>
-            <Tilt>
-              <img src={kazakh} alt="profile avatar" className={s.avatar}/>
-            </Tilt>
-            <h3>You can learn by a special category</h3>
-          </header>
-          <div className={s.heroStats}>
-            <h3>Pick category you want to improve:</h3>
-            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.MAIN}`}>
-              Learn all
+    console.log(Object.entries(CategoriesTypes))
+    return (
+        <div className={s.wrapper}>
+            <div className={s.profile}>
+                <div className={s.infoSection}>
+                    <header>
+                        <Tilt>
+                            <img src={kazakh} alt="profile avatar" className={s.avatar}/>
+                        </Tilt>
+                        <h3>You can learn by a special category</h3>
+                    </header>
+                    <div className={s.heroStats}>
+                        <h3>Pick category you want to improve:</h3>
+                        {Object.entries(CategoriesTypes).map((category) =>
+                            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${category[1]}`} key={category[0]}>
+                                {`Learn ${category[1]}`}
+                            </Link>)
+                        }
+                    </div>
+                </div>
+            </div>
+            <Link to={ROUTES.MAIN} className={s.link}>
+                Back to main
             </Link>
-            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.RELATIVES}`}>
-              Learn relatives
-            </Link>
-            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.COUNT}`}>
-              Learn count
-            </Link>
-            <Link className={s.link} to={`${ROUTES.KAZAKSHA}/${CategoriesTypes.VERBS}`}>
-              Learn verbs
-            </Link>
-          </div>
         </div>
-      </div>
-      <Link to={ROUTES.MAIN} className={s.link}>
-        Back to main
-      </Link>
-    </div>
-  )
+    )
 }
