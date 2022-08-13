@@ -27,5 +27,18 @@ export const datesTranslates = [
   {kazakh: 'Қараша', rus: 'ноябрь', example: '---', exampleTranslate: '---', rating: 1},
   {kazakh: 'Желтоқсан', rus: 'декабрь', example: '---', exampleTranslate: '---', rating: 1},
   {kazakh: 'ТУҒАН КҮН', rus: 'день рождения', example: 'Менің туған күн+ІМ қарашаДА.', exampleTranslate: 'Мой дернь рождения-МОЙ ноябре-В', rating: 1},
+  {kazakh: 'Бүгін', rus: 'сегодня', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'ертең', rus: 'завтра', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'кешке', rus: 'вечером', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'биыл', rus: 'в этом году', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'былтыр', rus: 'в прошлом году', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'таңертең', rus: 'утром', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'бүрсүгіні', rus: 'послезавтра', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'келесі күні', rus: 'на \\в следующий день', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'өткен күні', rus: 'в прошлый день\\позавчера', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'арғыкүні', rus: 'позавчера', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'күндіз', rus: 'днем', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'осы жолы', rus: 'в этот раз', example: '---', exampleTranslate: '---', rating: 1},
+  {kazakh: 'Сағат қанша? Сағат неше?', rus: 'Который час? (Час сколько)', example: 'Қанша сағат демал+ды+ң?', exampleTranslate: 'Сколько время отдыхал?', rating: 1},
 
 ]

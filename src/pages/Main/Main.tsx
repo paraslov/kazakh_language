@@ -13,7 +13,7 @@ export const Main = () => {
           <img src={kazakh} alt="logo" className='App-logo'/>
         </Tilt>
           <p>
-            Improve your Kazakh language skills (v .011)
+            Improve your Kazakh language skills (v .012)
           </p>
           <Link
             className="App-link"

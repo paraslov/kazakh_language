@@ -9,6 +9,7 @@ export const verbsTranslates = [
   {kazakh: 'Аяқталу', rus: 'заканчиваться', example: 'Фильм сағат он екіДЕ аяқтал+ДЫ', exampleTranslate: 'Фильм часов двенадцать-В заканчивал-СЯ', rating: 1},
   {kazakh: 'Болу', rus: 'быть', example: 'Фильм  БІР САҒАТ бол+ДЫ', exampleTranslate: 'Фильм шел\\продолжался\\длился\\был один час', rating: 1},
   {kazakh: 'туу, дүниеге келу', rus: 'родиться', example: 'Мен Алматы+да ту+ды+м.', exampleTranslate: 'Я Алматы-В роди-лся', rating: 1},
+  {kazakh: 'туу, дүниеге келу', rus: 'родиться', example: 'Сен НЕШ + ІНШІ жылы туДЫ+Ң?', exampleTranslate: 'Ты сколько-(порядковый) В годУ роди-ЛСЯ-ТЫ', rating: 1},
   {kazakh: 'өсу', rus: 'расти', example: 'Мен Алматы+да ӨС+ТІ+М.', exampleTranslate: 'Я Алматы-В вы-рос', rating: 1},
   {kazakh: 'демалу', rus: 'отдыхать', example: 'ИспанияДА демалДЫ+М', exampleTranslate: 'Я Испания-В отдыха-Л', rating: 1},
   {kazakh: 'оқу (ОҚ  + Ы + ДЫ+М)', rus: 'учиться', example: 'Мен мектеп+те оқы+ды+м', exampleTranslate: 'Я школе-В учил-ся', rating: 1},

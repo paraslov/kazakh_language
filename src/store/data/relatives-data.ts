@@ -9,6 +9,7 @@ export const relativesTranslates = [
   {kazakh: 'жанұя', rus: 'семья (муж + жена)', example: '---', exampleTranslate: '---', rating: 1},
   {kazakh: 'отбасы', rus: 'семья (родители + дети)', example: '---', exampleTranslate: '---', rating: 1},
   {kazakh: 'әулет ', rus: 'семья (дедушка, бабушка, дети, внуки)', example: 'Сенің әулет+ін үлкен', exampleTranslate: 'У тебя семья+твоя большая', rating: 1},
+  {kazakh: 'егіз ', rus: 'двойняшки', example: 'Менің егіз қыздар+ЫМ екі мың он екі+НШІ ЖЫЛЫ туды', exampleTranslate: 'Мои двойняшки дочки-Мои две тысячи десять ВТОРОМ В годУ роди-Лись', rating: 1},
   {kazakh: 'туыс, туысқан', rus: 'родственник', example: 'Менің көп туыс+ым (туысқан+ым) бар / Менің туыс+ым (туысқан+ым) көп', exampleTranslate: 'У меня много родственников-моих есть / У меня родственников-моих много', rating: 1},
 
 ]
